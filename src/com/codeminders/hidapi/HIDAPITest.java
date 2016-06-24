@@ -13,7 +13,8 @@ public class HIDAPITest
 
     static
     {
-        System.loadLibrary("hidapi-jni");
+        //System.loadLibrary("hidapi-jni");
+    	ClassPathLibraryLoader.loadNativeHIDLibrary();
     }
 
     // "Afterglow" controller for PS3
