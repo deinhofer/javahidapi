@@ -17,7 +17,7 @@
     <!-- define Maven coordinates -->
     <property name="groupId" value="org.clojars.torbjornvatn" />
     <property name="artifactId" value="hidapi" />
-    <property name="version" value="1.1" />
+    <property name="version" value="1.1libLoaderPatch" />
 
     <!-- define artifacts' name, which follows the convention of Maven -->
     <property name="maven-jar" value="${dist}/lib/${artifactId}-${version}.jar" />
